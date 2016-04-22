@@ -22,7 +22,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.rssreader">
   <uses-permission android:name="android.permission.INTERNET" />
+<<<<<<< HEAD
   <application android:label="RSS Reader" >
+=======
+  <application android:label="RSS Reader">
+>>>>>>> parent of 06df428... change some icon
         <activity android:name="RssReader">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
